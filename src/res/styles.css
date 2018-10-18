@@ -1,6 +1,6 @@
 #content {
   -fx-padding: 10px;
-  -fx-pref-width: 300px;
+  -fx-pref-width: 260px;
   -fx-alignment: bottom-center;
   -fx-spacing: 10px;
 }
@@ -36,12 +36,12 @@
 }
 
 .win {
-  -fx-background-color: rgba(0, 255, 0, 0.05);
+  -fx-background-color: linear-gradient(#00ff00, #000000);
   -fx-border-color: #C0C0C0;
 }
 
 .loss {
-  -fx-background-color: rgba(255, 0, 0, 0.05);
+  -fx-background-color: linear-gradient(#ff0000, #000000);
   -fx-border-color: #C0C0C0;
 }
 
